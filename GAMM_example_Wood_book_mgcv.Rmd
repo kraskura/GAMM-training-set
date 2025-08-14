@@ -31,7 +31,7 @@ spatiotemporal structure etc.
 
 When estimating GAMMs as a mixed model, we need to compute confidence /credible intervals as for GAM. Beta now contains both i) all the *fixed  effects* and the *random effects* for the smooth terms (only). 
 
-Sometimes a random effects model is required with a large number of smooth curves, which really are the random effects. That is, we might have a random smooth curve per subject, these can  be set up to be efficiently computed in `gamm` anf `gamm4`
+Sometimes a random effects model is required with a large number of smooth curves, which really are the random effects. That is, we might have a random smooth curve per subject, these can  be set up to be efficiently computed in `gamm` and `gamm4`
 
 After all, the most important should be knowing what do you want to accomplish by using random effects. Then use find the most appropriate model structure.
 
